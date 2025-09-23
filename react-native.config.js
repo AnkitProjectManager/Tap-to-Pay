@@ -1,3 +1,10 @@
 module.exports = {
-    assets: ['./assets/fonts'],
-  };
+  project: {
+    android: {
+      sourceDir: "./android",
+      appName: "app",
+      packageName: "com.taptopay",
+    },
+  },
+  assets: ["./assets/fonts"],
+}
